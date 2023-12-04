@@ -12,11 +12,180 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="overview-section">
+        <h2>SECTION 1: OVERVIEW</h2>
+        <ol>
+          <li>PHASE 1: FOUNDATION</li>
+          <ul>
+            <li>Command line fundamentals</li>
+            <li>HTML + CSS</li>
+            <li>Git + GitHub</li>
+            <li>JavaScript</li>
+            <li>3rd Party APIs (i.e. jQuery + Bootstrap)</li>
+            <li>Server-side APIs, AJAX, + JSON</li>
+          </ul>
+          <li>PHASE 2: TECHNICAL</li>
+          <ul>
+            <li>Node.js</li>
+            <li>Object-Oriented Programming (OOP)</li>
+            <li>express.js</li>
+            <li>Relational databases (i.e. MySQL)</li>
+            <li>Object-Relational Mapping (ORM) using Sequelize</li>
+            <li>Model-View-Controller framework (MVC)</li>
+            <li>Handlebars.js</li>
+            <li>Unit testing</li>
+            <li>Agile software development methodology</li>
+            <li>Heroku</li>
+          </ul>
+          <li>PHASE 3: PERFORMANCE</li>
+          <ul>
+            <li>Computer science fundamentals</li>
+            <li>NoSQL databases like MongoDB</li>
+            <li>Progressive Web Apps (PWAs)</li>
+            <li>React</li>
+            <li>MERN stack (Mongo, Express, React, Node)</li>
+            <li>Making your portfolio :^)</li>
+          </ul>
+        </ol>
+      </section>
+      <section class="card" id="intro-notes-section">
+        <h2>SECTION 2: INTRO NOTES</h2>
+        <ul>
+          <li>The 4 cornerstones of computational thinking</li>
+          <ol>
+            <li><b>Decomposition:</b> breaking a problem down into smaller tasks.</li>
+            <li><b>Pattern Recognition:</b> find patterns in how the subtasks are solved to streamline/minimize the amount of work done in your code.</li>
+            <li><b>Abstraction:</b> filter out unrelated info.</li>
+            <li><b>Algorithm:</b> the sequence of steps or rules to solve the problem.</li>
+          </ol>
+          <li>Misc. terms</li>
+          <ul>
+            <li>Conditional statement = if x meets condition y then x will do a; if x does not meet condition y, then x will do b</li>
+            <li>Debugging = fixing the dang thang</li>
+            <li>For loop =  an action that repeats until a given condition is met</li>
+            <li>Terminal and Gitbash are CLIs (command line interfaces)</li>
+            <li>GUI = graphical user interface</li>
+            <li>pair programming = 2 people coding at once</li>
+            <ul>
+              <li>driver-navigator model = driver is writing code and nav is directing/overseeing</li>
+            </ul>
+            <li>SSH key = access credential for Secure SHell network protocol</li>
+            <li>MVP - minimum viable product. first iteration of a product without any extra features.</li>
+          </ul>
+          <li>Misc. info</li>
+          <ul>
+            <li>Bash & gitbash are the same thing</li>
+            <li>When stuck on a problem, timebox. Work 20-30 minutes and if still not clicking, ask for help.</li>
+          </ul>
+         </ul>
+      </section>
+      <section class="card" id="html-section">
+        <h2>SECTION 3: HTML</h2>
+        <text>Notes on HTML</text>
+        <ul>
+          <li>The head element contains information about the webpage.</li>
+          <li>The body element represents the visible content shown to the user.</li>
+          <li>The meta element holds metadata (info for the browser, not the user)</li>
+          <li>Parent/child elements are the bigger and littler guys. For example, "p" is the child element to "body", the parent.</li>
+          <li>An element is the entire bit of info from the opening tag to the closing tag. Like this, inside the "li"s!</li>
+          <li>A tag is only what appears inbetween the angle brackets.</li>
+          <li>To make a list, the parent element should be "ul" for an unordered list or "ol" for an ordered list. Every element within should go between "li" tags, for the list items.</li>
+          <li>The "a" tag means "anchor". It sets up links.</li>
+          <li>The href item(?) precedes your url. You can put some words between the link and your closing "/a" to make linked text. <a href="https://www.youtube.com/watch?v=fC7oUOUEEi4">Like this!</a></li>
+          <li>on images...</li>
+          <ol>
+            <li>The item(?) "src" is the source of the image.</li>
+            <li>The item(?) "alt" is like metadata for the image. You can use it to describe the contents and function of the image so that screen readers and browsers can pick up that info! Great for accessibility and SEO.</li>
+          </ol>
+          <li>HTML is fun!!!</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>SECTION 4: CSS</h2>
+        <ul>
+          <li>Enter your CSS notes here</li>
+        </ul>
+      </section>
+   
+      <section class="card" id="git-section">
+        <h2>SECTION 5: GIT + GITHUB</h2>
+        <ul>
+          <li>Gitbash commands</li>
+          <ul>
+            <li>Non-git Gitbash commands</li>
+            <ul>
+              <li>pwd = print working directory</li>
+              <li>ls = list of files and directories in current directory</li>
+              <li>cd [directory] = change directory to the one listed</li>
+              <li>cd .. = move back a directory</li>
+              <li>mkdir [directory] = makes a directory</li>
+              <li>touch [filename].txt = makes file</li>
+              <li>start [filename].txt = opens file (cmd is "open" in terminal)</li>
+            </ul>
+            <li>Git Gitbash commands</li>
+            <ul>
+              <li>git status = prints current branch</li>
+              <li>git checkout = move from working (current) branch to a new branch</li>
+              <li>git checkout -b [branch name] = creates a new branch and moves you there</li>
+              <li>git add = adds modifications in cwb to staging area</li>
+              <li>git add -A = add all changes</li>
+              <li>git pull [directory] [branch] = recieve a branch's changes into the local environ</li>
+              <li>git push [directory] [branch] = pushes local changes to the remote GH branch. (it can create a new remote branch or add new changes to an existing branch.)</li>
+              <li>origin = source of the pull will be the github repo. (i.e., git pull origin main)</li>
+            </ul>
+          </ul>
+          <li>GitHub terminology</li>
+          <ul>
+            <li>repository/repo = folder for all files in a project</li>
+            <li>branch = the workspace where you can make changes that don't affect the live site</li>
+            <li>markdown (.md) = a file format of plaintext that easily converts into html</li>
+            <li>commit changes = saving a new version of the file you're working on. this includes adding, editing, or deleting files. it adds changes to your branch.</li>
+            <li>pull request (pr) = asking for changes on a branch to merge into another branch. it's a way to discuss and review your work with others.</li>
+            <li>merge = changes are pulled from your branch into the new branch (publishes/deploys into the live site)</li>
+            <li>issue = way to report new tasks or fixes. tracks progress and bug fixes.</li>
+            <li>blocker = the thing keeing you stuck</li>
+            <li>bottleneck = the part slowing down everything else</li>
+            <li>staging area = informs git that the changes there will be added in the next commit.</li>
+            <li>base = branch you're merging to</li>
+            <li>compare = where you're merging from</li>
+          </ul>
+          <li>Workflow for content updates in GH</li>
+          <ol>
+            <li>create a branch</li>
+            <li>add commits</li>
+            <li>open a pull request</li>
+            <ul>
+              <li>title pr descriptively</li>
+              <li>fill body of pr with instructions for team members reviewing it.</li>
+              <ol>
+                <li>changes that were made</li>
+                <li>how it should function</li>
+                <li>how to start the application so the feature can be tested</li>
+              </ol>
+            </ul>
+            <li>discuss and review</li>
+            <li>merge and deploy</li>
+          </ol>
+          <li>Misc. Git notes</li>
+          <ul>
+            <li>When cloning a repo, you need to be inside the directory you want the repo directory to be in!</li>
+            <li>Always do a Git pull before you work to make sure you aren't using old code!</li>
+            <li>Always review with others before merging!</li>
+          </ul>
+        </ul>
+      </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>SECTION 6: JAVASCRIPT</h2>
+        <ul>
+          <li>Enter your JavaScript notes here</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
-      <p>I can code!</p>
+      <p><small><i>copyright ME 2023 :3</i></small></p>
     </footer>
   </body>
 </html>
